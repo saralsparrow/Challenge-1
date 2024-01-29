@@ -4,9 +4,13 @@
     margin: 0;
 }
 
+/* this applies to the body*/
+
 body {
     background-color: #d9dcd6;
 }
+
+/*this applies to the header  */
 
 .header {
     padding: 20px;
@@ -15,14 +19,20 @@ body {
     color: #ffffff;
 }
 
+/*this applies to the h1 elements only in the header*/
+
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*this applies only to the elements in the "seo" class in the h1 element in the header*/
+
 .header h1 .seo {
     color: #d9dcd6;
 }
+
+/*this applies only to the elements in the "div" section of the header*/
 
 .header div {
     padding-top: 15px;
@@ -32,9 +42,13 @@ body {
     font-size: 20px;
 }
 
+/*this only applies to the list in the div element of the header*/
+
 .header div ul {
     list-style-type: none;
 }
+
+/*this only applies to each list item in the div element of the header*/
 
 .header div ul li {
     display: inline-block;
